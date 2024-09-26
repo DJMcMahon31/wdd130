@@ -31,3 +31,7 @@ aside {
     color: #5ebaef;
     text-align: center;
 }
+aside img {
+    width: 200px;
+    height: auto;
+}
