@@ -1,11 +1,13 @@
 :root {
     --heading-background-color: #e01717;
     --heading-text-color: #a41212;
-    --heading-font: 'Montserrat', Helvetica, sans-serif;
+    --heading-font: 'Montserrat', helvetica, sans-serif;
     --padding: 1rem;
     --border: 1px solid rgba(0,0,0,0.1);
     --background-color: #e01717;
-    --width: 30rem;
+    --width: 70rem;
+    --body-text: 'verdana', 'tahoma', sans-serif;
+
 }
     nav {
     background-color: var(--heading-background-color);
@@ -26,13 +28,15 @@ img {
     padding: 2px; 
     box-shadow: 0 0 30px gray;
 }
-p { padding: 0;}
+p { 
+    font-family: var(--body-text);
+    padding: 0;} 
 main {
     max-width: var(--width);
 }
 aside {
     width: var(--width);
-    margin: 1rem;
+    margin: 0rem;
     border: var(--border); /* 1 */
     padding: var(--padding);
     background-color: var(--background-color);
