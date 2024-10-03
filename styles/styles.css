@@ -25,17 +25,24 @@ nav a {
 }
 h1 {
     color: var(--heading-text-color);
+    padding-bottom: 1rem;
+    padding-top: 1rem;
 }
 img {
     width: 175px; 
     height: auto; 
     border: var(--border);
-    padding: 2px; 
+    padding-top: 4px; 
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
     box-shadow: 0 0 30px gray;
 }
 p { 
     font-family: var(--body-text);
-    padding: 0;} 
+    padding: 1rem;
+    max-width: var(--width);
+} 
 main {
     max-width: var(--width);
 }
@@ -47,9 +54,9 @@ aside h2 {
 }
 aside {
     width: var(--width);
-    
-   
-    
+    margin: 1rem;
+    border: 1px solid rgba(0,0,0,0.1);
+    padding: 1rem;
     background-color: var(--background-color);
     color: #fcfdfd;
     text-align: center;
@@ -60,7 +67,7 @@ aside img {
 }
 
 main img {
-    width: 150px;
+    width: 200px;
     height: auto; 
     float: right; 
 }
