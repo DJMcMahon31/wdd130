@@ -41,9 +41,9 @@ main {
 }
 aside {
     width: var(--width);
-    margin: 0rem;
-    border: var(--border); /* 1 */
-    padding: var(--padding);
+    
+   
+    
     background-color: var(--background-color);
     color: #fcfdfd;
     text-align: center;
@@ -61,3 +61,10 @@ footer {
     border-top: 1px solid #bc7c1b;
     text-align: center;
 } 
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0,0,0,0.1);
+    padding: 1rem;
+    background-color: aqua;
+}
