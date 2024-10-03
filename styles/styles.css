@@ -39,6 +39,12 @@ p {
 main {
     max-width: var(--width);
 }
+aside h2 {
+    position: relative;
+    top: 160px;
+    left: 15px;
+    color: rgb(245, 239, 239);
+}
 aside {
     width: var(--width);
     
@@ -52,9 +58,11 @@ aside img {
     width: 18rem;
     height: auto;
 }
+
 main img {
     width: 150px;
-    height: auto;  
+    height: auto; 
+    float: right; 
 }
 footer {
     margin-top: 15px;
