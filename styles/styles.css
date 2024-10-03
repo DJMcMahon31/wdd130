@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 :root {
     --heading-background-color: #e01717;
     --heading-text-color: #a41212;
