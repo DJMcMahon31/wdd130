@@ -1,1 +1,10 @@
-:root
+:root {
+    --heading-background-color: #053da3;
+    --heading-text-color: #9aa9b7;
+    --heading-font: 'qwitcher grypen', 'montserrat', sans-serif;
+    --padding: 1rem;
+    --border: 1px solid rgba(0,0,0,0.1);
+    --background-color: #84857e;
+    --width: 70rem;
+    --body-text: 'oxygen', 'helvetica', sans-serif;
+}
