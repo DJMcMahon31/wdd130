@@ -1,10 +1,74 @@
 :root {
-    --heading-background-color: #053da3;
-    --heading-text-color: #9aa9b7;
-    --heading-font: 'qwitcher grypen', 'montserrat', sans-serif;
+    --heading-background-color: #9aa9b7;
+    --heading-text-color: #47443d;
+    --heading-font:'dancing script','qwitcher grypen', sans-serif;
     --padding: 1rem;
     --border: 1px solid rgba(0,0,0,0.1);
     --background-color: #84857e;
     --width: 70rem;
-    --body-text: 'oxygen', 'helvetica', sans-serif;
+    --body-text: 'oxygen', 'montserrat', sans-serif;
+    --heading2-font: 'qwitcher grypen', 'dancing script',sans serif;
+    --heading2-text-color: #053da3;
+    --heading2-font-size: 60px;
+    --heading-text-size: 45px;
+    
+}
+ .hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+ }
+ 
+ 
+nav {
+    background-color: var(--heading-background-color);
+    padding: var(--padding);
+    width: var(--width);
+}
+nav a {
+    color: white; display: block; 
+    padding: var(--padding);
+}
+h1 {
+    color: var(--heading-text-color);
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    font-family: var(--heading-font);    
+    font-weight: 5000;
+    font-style: normal;
+    font-size: var(--heading-text-size);
+      }
+      
+img {
+    width: 175px; 
+    height: auto; 
+    border: var(--border);
+    padding-top: 4px; 
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    box-shadow: 0 0 30px gray;
+}
+p { 
+    font-family: var(--body-text);
+    padding: 1rem;
+    max-width: var(--width);
+} 
+h2 {
+    color: var(--heading2-text-color);
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    font-family: var(--heading2-font);    
+    font-weight: 5000;
+    font-style: normal;
+    font-size: var(--heading2-font-size);
+    text-size-adjust: var(--heading-font-size);
+    
+
+}
+main {
+    max-width: var(--width);
+}
+a {
+    text-decoration: none;
 }
