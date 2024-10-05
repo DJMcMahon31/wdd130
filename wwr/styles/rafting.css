@@ -22,7 +22,7 @@
     position: relative;
     width: 100%;
     height: 500px;
-    background-image: ("images/rafting20_600.jpg");
+    
     background-size: cover;
     background-position: center;
  }
@@ -35,16 +35,16 @@
     transform: translate(-50%, -50%);	
     }
 .hero article {
-    top:128%;
+    top:107%;
     left: 87%;
     transform: translate(-50%,-50%);
     width: 25%;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     font-size: xx-large;
-    text-size-adjust: larger;
+   
     font-style: oblique;
-    text-wrap: #9aa9b7;
+   
     color: aliceblue;
     padding: 0%;
 
@@ -66,7 +66,7 @@ h1 {
     padding-bottom: 1rem;
     padding-top: 1rem;
     font-family: var(--heading-font);    
-    font-weight: 5000;
+    
     font-style: normal;
     font-size: var(--heading-text-size);
     
@@ -92,7 +92,7 @@ h2 {
     padding-bottom: 1rem;
     padding-top: 1rem;
     font-family: var(--heading2-font);    
-    font-weight: 0;
+    font-weight: 990;
     font-style: normal;
     font-size: var(--heading2-font-size);
     text-size-adjust: var(--heading-font-size);
