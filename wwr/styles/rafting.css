@@ -105,12 +105,12 @@ main {
 footer {
     font-size: 12px;
     font-style: italic;
-    
+}    
     .sociallinks img {
         width: 65px;
         height: 65px;
     }   
-}
+
 a {
     text-decoration: none;
 }
