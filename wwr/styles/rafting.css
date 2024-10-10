@@ -58,6 +58,8 @@ nav {
     background-color: var(--heading-background-color);
     padding: var(--padding);
     width: var(--width);
+    display: grid;
+    
 }
 nav a {
     color: white; display: block; 
