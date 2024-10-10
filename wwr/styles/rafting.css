@@ -49,7 +49,9 @@
     padding: 0%;
 
 }
-
+header img {
+    width: 20rem;
+}
 
 
 nav {
