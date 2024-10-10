@@ -20,13 +20,22 @@
     width: var(--width);
     display: flex;
     justify-content: space-evenly;
-    
-    flex-direction: column;
+    align-items: center;
+    flex-direction: row;
+
+   
 }
 nav a {
     color: white; display: block; 
     padding: var(--padding);
-}
+    display: block;
+    padding: 1rem;
+    text-decoration: wavy;
+    font-size: 1.4rem;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff; /* shorthand for white*/
+    }
 h1 {
     color: var(--heading-text-color);
     padding-bottom: 1rem;
