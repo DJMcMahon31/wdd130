@@ -44,7 +44,7 @@ p {
     max-width: var(--width);
 } 
 main {
-    
+    max-width: 840px;
 }
 aside h2 {
     position: relative;
@@ -75,7 +75,7 @@ main img {
     float: right; 
     margin: 0 0 1rem 1rem;
 }
-header, footer {
+footer {
     margin-top: 15px;
     border-top: 1px solid #bc7c1b;
     text-align: center;
