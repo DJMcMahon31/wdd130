@@ -24,7 +24,7 @@
     flex-direction: row;
 
    
-}
+    }
 nav a {
     color: white; display: block; 
     padding: var(--padding);
