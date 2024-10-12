@@ -51,9 +51,9 @@
 }
 header {
     margin: 1.5rem auto;
-    display: flex;
-    grid-template-columns: 120px 1fr 2fr;
-    justify-content: flex-start;
+    display: grid;
+    grid-template-columns: 350px 1fr 2fr;
+    justify-content: left;
     align-items: center;
     border-bottom: 1px solid #ccc;
     max-width: 1000px;
@@ -65,7 +65,9 @@ header {
     height: auto;
     display: grid;
     grid-template-columns: start;
-    grid-gap: 2rem; 
+    grid-gap: 2rem;
+    justify-content: flex-start; 
+    align-content: flex-start;
     
 }
 header img {
@@ -74,6 +76,7 @@ header img {
     justify-content: flex-start ;
     align-content: flex-start;
     flex-direction: column;
+    justify-items: left;
     
     
 
