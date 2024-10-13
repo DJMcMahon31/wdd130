@@ -114,9 +114,11 @@ p {
 
 
 footer {
-    margin-
-    font-size: 12px;
-    font-style: italic;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    
 }
 footer p {
     flex:grow 1;
