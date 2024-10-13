@@ -114,9 +114,16 @@ p {
 
 
 footer {
-    
+    margin-
     font-size: 12px;
     font-style: italic;
+}
+footer p {
+    flex:grow 1;
+    text-align: center;
+}
+footer a {
+    margin-left: 20px;
 }
 
 
