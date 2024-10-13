@@ -37,13 +37,13 @@ main {
 
 .adventures {
     display: grid;
-    grid-template-columns: repeat (5, 1fr);    
+    grid-template-columns: repeat(5, 1fr);    
     align-items: center;
     justify-content: space-around;
    }
 
 .adventures h2 {
-    font: var(heading2-font
+    font: var(--heading2-font)
 }
 
 
@@ -65,7 +65,7 @@ header {
     grid-template-columns: 200px auto;
     align-items: center;
     border-bottom: 1px solid #ccc;
-    font:#053da3;
+   
 }
 
 .logo-box {
@@ -121,7 +121,7 @@ footer {
     
 }
 footer p {
-    flex:grow 1;
+    flex-grow: 1;
     text-align: center;
 }
 footer a {
