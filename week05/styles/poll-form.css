@@ -130,6 +130,7 @@
         padding: .5rem;
         font-size: 1.5rem;
         font-color: blue;
+        <!--box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);-->
     }
 
     button:hover {
