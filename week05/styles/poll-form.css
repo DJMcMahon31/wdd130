@@ -64,7 +64,38 @@
     grid-gap: 0;
     margin: 0;
     padding: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: wavy;
     }
 
+    legend {
+        padding: 0.1em;
+        color: navy;
+        font-size: 1.2rem;
+    }
+
+    label {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    input {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    button {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    select {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    textarea {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    <!--the above textarea, select, button, input and label can all be put on one line.  
+    e.g. 'label, input, button, select, textarea {
+        font-family: Roboto, Arial, sans-serif;
+    }'-->
 
 
