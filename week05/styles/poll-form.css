@@ -59,7 +59,7 @@
     
   }
 
-    fieldset="useremail" {
+    fieldset {
     display: grid;
     grid-gap: 0;
     margin: 0;
@@ -67,7 +67,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: wavy;
     }
-    fieldset="browser"{
+    fieldset {
     display: grid;
     grid-gap: 0;
     margin: 0;
