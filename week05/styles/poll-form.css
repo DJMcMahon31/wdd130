@@ -59,13 +59,20 @@
     color:blueviolet;
   }
 
-  fieldset {
+  fieldset-Contact Information {
     display: grid;
     grid-gap: 0;
     margin: 0;
     padding: 1em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: wavy;
+    }
+    fieldset-Questions {
+        display: grid;
+    grid-gap: 0;
+    margin: 0;
+    padding: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
     legend {
@@ -107,4 +114,9 @@
     }'-->
     <!--styling the input, select and textarea with padding and larger font size is critical in order to provide spacing inside of the form input elecments-->
 
-
+    input[type="checkbox"] {
+      width: 25px;
+      height: 25px;
+      vertical-align: bottom;
+    }
+    <!--the best practice CSS selector for checkbox is 'input[type="checkbox"]'-->
