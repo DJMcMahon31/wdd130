@@ -39,15 +39,30 @@
 
   header {
     margin: 1px 1px;
-    width: 450px;
     height: 600px;
   }
 
   h1 {
-    margin: 10px 10px;
+    margin: 10px 15px;
     font-size: 2em;
     color:blue;
+    text-align: start;
+  }
 
+  form {
+    width:50em;
+    margin: 2 auto;
+    padding: 2em;
+    border: 1.5px solid cornsilk;
+    background-color: cornsilk;
+    display: grid;
+    color:blueviolet;
+  }
+
+  fieldset {
+    display: grid;
+    grid-gap: 0;
+    margin: 0;
   }
 
 
