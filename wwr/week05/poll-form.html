@@ -19,10 +19,25 @@
             <input type="text" name="fullname" id="fullname">        
             <label for="useremail">Email:</label>
             <input type="email" name="useremail" id="useremail">
-        </fieldset>
+        </fieldset><br>
         <fieldset>
             <legend>Questions</legend>
             <!-- form elements will go here -->
+             <label for="browser">What is your favourite browser</label>
+             <select name="browser" id="browser">
+               
+                <optgroup label="Browser"></optgroup>
+                  <option>Firefox</option><br>
+                  <option>Chrome</option><br>
+                  <option>Edge</option><br>
+              </select>
+             
+             <br><br>
+             <form action="/action_page.php">
+                <input type="checkbox" name="pet" id="pet">
+                <label for="pet">Do you have a household pet?</label>
+                
+             </form>
         </fieldset>
       </form>
    </main>
