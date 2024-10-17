@@ -144,7 +144,22 @@
      font-size:large;
      text-align: center;
      margin: 1rem;
-     color:brown;
-     border-top: 0.1px solid brown;
+     color:rgba(36, 26, 115, 0.97);
+     border-top: 0.1px solid rgb(36, 26, 115);
 
+    }
+
+    .form-item {
+        display: grid;
+        align-items: center;
+    }
+
+    .column1 {
+        grid-template-columns: 3fr 1fr;
+        margin: 0.3rem 0;
+    }
+
+    .column2 {
+        grid-template-columns: 1fr 2fr;
+        margin: .5rem 0;
     }
