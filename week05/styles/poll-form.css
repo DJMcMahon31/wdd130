@@ -57,9 +57,11 @@
     background-color: cornsilk;
     display: grid;
     color:blueviolet;
+    align-items: start;
+    
   }
 
-  fieldset-Contact Information {
+  fieldset="useremail" {
     display: grid;
     grid-gap: 0;
     margin: 0;
@@ -67,8 +69,8 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: wavy;
     }
-    fieldset-Questions {
-        display: grid;
+  fieldset="browser" {
+    display: grid;
     grid-gap: 0;
     margin: 0;
     padding: 1em;
@@ -95,6 +97,7 @@
 
     button {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
     }
 
     select {
@@ -105,7 +108,7 @@
 
     textarea {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        padding: 1rem;
+        padding: 2rem;
         font-size: larger
     }
     <!--the above textarea, select, button, input and label can all be put on one line.  
@@ -117,7 +120,7 @@
     input[type="checkbox"] {
       width: 25px;
       height: 25px;
-      vertical-align: bottom;
+      vertical-align: start;
     }
     <!--the best practice CSS selector for checkbox is 'input[type="checkbox"]'-->
 
