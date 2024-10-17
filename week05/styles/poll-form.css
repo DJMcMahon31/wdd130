@@ -44,13 +44,13 @@
 
   h1 {
     margin: 10px 15px;
-    font-size: 2em;
+    font-size: 1.6em;
     color:blue;
     text-align: start;
   }
 
   form {
-    width:50em;
+    width:35em;
     margin: 2 auto;
     padding: 2em;
     border: 1.5px solid cornsilk;
@@ -63,7 +63,8 @@
     display: grid;
     grid-gap: 0;
     margin: 0;
-  }
+    padding: 1em;
+    }
 
 
 
