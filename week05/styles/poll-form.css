@@ -82,6 +82,8 @@
 
     input {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 1rem;
+        font-size: larger
     }
 
     button {
@@ -90,14 +92,19 @@
 
     select {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 1rem;
+        font-size: larger
     }
 
     textarea {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 1rem;
+        font-size: larger
     }
     <!--the above textarea, select, button, input and label can all be put on one line.  
     e.g. 'label, input, button, select, textarea {
         font-family: Roboto, Arial, sans-serif;
     }'-->
+    <!--styling the input, select and textarea with padding and larger font size is critical in order to provide spacing inside of the form input elecments-->
 
 
