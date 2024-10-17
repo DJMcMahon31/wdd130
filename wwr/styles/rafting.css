@@ -9,7 +9,7 @@
     --body-text: 'oxygen', 'montserrat', sans-serif;
     --heading2-font: 'qwitcher grypen', 'dancing script', sans serif;
     --heading2-text-color: #053da3;
-    --heading2-font-size: 60px;
+    --heading2-font-size: 80px;
     --heading-text-size: 45px;
     
 
@@ -36,14 +36,16 @@ main {
 }
 
 .adventures {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);    
+        display: grid;
+    grid-template-columns: repeat(5, 1fr);  
     align-items: center;
     justify-content: space-around;
    }
 
 .adventures h2 {
     font: var(--heading2-font)
+    padding: var(--padding)
+    heading: var(var(--heading-font))
 }
 
 
