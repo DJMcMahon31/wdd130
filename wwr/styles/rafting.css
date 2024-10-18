@@ -35,12 +35,33 @@ main {
     height: auto;
 }
 
+.adventures-container {
+    display: grid;
+    grid-template-columns: repeat (5, 1fr);
+    height: 200px;
+    object-fit: cover;
+}
+
 .adventures {
-        display: grid;
+    margin: 0;
+    text-align: center;
+}
+    /*display: grid;
     grid-template-columns: repeat(5, 1fr);  
     align-items: center;
-    justify-content: space-around;
-   }
+    justify-content: space-around;*/
+}
+
+.adventures-container img{
+    max-width: 100%;
+    height: 200px;
+    object-fit: cover;
+
+
+    /*display: grid;
+    grid-template-columns: repeat(5, 1fr); */ 
+   
+}
 
 .adventures h2 {
     font: var(--heading2-font)
@@ -48,6 +69,10 @@ main {
     heading: var(var(--heading-font))
 }
 
+.awaits {
+    display: grid;
+
+}
 
 
 
