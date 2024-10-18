@@ -37,12 +37,37 @@
         </div>    
     </fieldset>
     <fieldset>
+        <legend>Browser</legend>
+        <div class="form-item column1">
+            <label for="browser">Which browser do you use?</label>
+            <select name="q3" id="q3">
+                       <optgroup label="Browser"></optgroup>
+                 <option>Firefox</option>
+                 <option>Chrome</option>
+                 <option>Edge</option>
+                 <option>Safari</option>
+             </select>
+       </div>
+    </fieldset>
+    <fieldset>
+        <legend>Opinion</legend>
         <div class="form-item textarea">
             <label for="opinion">Explain why you think HTML is better than CSS? Or is it?</label>
-            <textarea name="opinion" id="opinion" rows="6"></textarea>
+            <textarea name="q2" id="q2" rows="6"></textarea>
 
         </div>
     </fieldset>
+    <fieldset>
+        <legend>Number</legend>
+        <label for="q4">Rate on a scale of 1 to 5 how useful HTML is?</label>
+        <input type="number" name="q4" id="q4" min="1" max="5">
+        <br>
+        <label for="q4">Rate on a scale of 1 to 5 how useful CSS is?</label>
+        <input type="number" name="q4" id="q4" min="1" max="5">
+        
+ 
+    </fieldset>
+    <input type="submit" value="Submit Quiz">
 </main>
 
     
