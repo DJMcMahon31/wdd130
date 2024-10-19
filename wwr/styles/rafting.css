@@ -11,7 +11,6 @@
     --heading2-text-color: #053da3;
     --heading2-font-size: 100rem;
     --heading-text-size: 45px;
-
 }
 * {
     box-sizing: border-box;
@@ -21,6 +20,7 @@ body {
     font-family: var(--body-text);
     font-size: 18px;
 }
+
 header,
 footer,
 main {
@@ -28,25 +28,26 @@ main {
     margin: 0 auto;
 }
 
-.hero img {
-    
+.hero img {    
     width: 100%;
     height: auto;
 }
+
 section {
     display: flex;
     flex-direction: column; 
     align-items: center;
-
 }
     /*grid-template-columns: repeat(5, 1fr); */ 
+.adventures {
+    display: grid;
+}
   
 .adventures h2 {
     font: 'qwitcher grypen', 'dancing script', sans serif;
     padding: var(--padding);
     color:#47443d
-    margin: 5;
-    
+    margin: 5;    
 }
 
 .hero article {
@@ -67,27 +68,19 @@ header {
     grid-template-columns: 200px auto;
     align-items: center;
     border-bottom: 1px solid #ccc;
-    background-color: aquamarine;
-   
+    background-color: aquamarine;   
 }
 
 .logo-box {
     width: 100%;
     justify-self: center;
-
 }
-
-
 
 nav {
     background-color: var(--heading-background-color);
     padding: var(--padding);
-
     display: flex;
     justify-content: space-around;
-
-
-
 }
 
 nav a {
@@ -104,6 +97,7 @@ nav a:hover {
 h1, h2 ,h3, h4, h5, h6 {
      font-family: var(--heading-font);
 }
+
 img {
     width: 100%;
     height: auto;
@@ -113,11 +107,13 @@ p {
     padding: 1rem;
 }
 .guides {
-    display: grid;
-    grid-template-rows: auto;
+    display: grid;    
     grid-template-columns: repeat (3, 1fr);
 }
 
+.h2guides {
+    align-items: center;
+}
 
 
 footer {
@@ -180,11 +176,38 @@ a {
 .history {
     display: grid;
     grid-template-columns: repeat(12,1fr);
+
+   
+
+.reach {
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    background-color: aquamarine;
+    margin:0%;
+    padding: 0%;
 }
+
+.reach h2 {
+    padding: 0;
+    margin: 0;
+    font-weight:600;
+    color:#47443d
+}
+.reach p:nth-of-type(1) {
+    grid-column: 1/5;
+}
+
+.reach p:nth-of-type(2) {
+    grid-column: 8/13;
+}
+
+.reach iframe {
+    grid-column: 5/8;
+}
+
 .awaits {
     display: grid;
     grid-template-columns: repeat(5,1fr);
-
 }
 
 .awaits img {
