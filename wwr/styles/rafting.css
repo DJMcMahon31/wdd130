@@ -214,7 +214,7 @@ a {
 
 }
 
-.form-item {
+/*.form-item {
     display: grid;
     align-items: center;
 }
@@ -227,7 +227,7 @@ a {
 .column2 {
     grid-template-columns: 2fr 1fr;
     margin: .5rem 0;
-}
+}*/
 
 /* Style the submit button */
 .submit button:hover {
