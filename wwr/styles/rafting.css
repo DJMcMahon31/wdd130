@@ -1,5 +1,5 @@
 :root {
-    --heading-background-color: #9aa9b7;
+    --heading-background-color: #0d4e8b;
     --heading-text-color: #47443d;
     --heading-font: 'dancing script', 'qwitcher grypen', sans-serif;
     --padding: 1rem;
@@ -206,6 +206,11 @@ a {
 
 .awaits img {
     max-width: 100%;
+}
+
+.form {
+    background-color:aliceblue;
+    font-family:'Times New Roman', Times, serif;
 }
 
 .user form {
