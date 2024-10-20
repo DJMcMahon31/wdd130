@@ -235,7 +235,7 @@ a {
 }*/
 
 /* Style the submit button */
-.submit button:hover {
+.submission button:hover {
     background-color: #4CAF50; /* Green background */
     color: white; /* White text */
     padding: 15px 20px; /* Padding */
@@ -246,6 +246,6 @@ a {
 }
 
 /* Hover effect */
-.submit button:hover {
+.submission button:hover {
     background-color: #45a049; /* Darker green on hover */
 }
