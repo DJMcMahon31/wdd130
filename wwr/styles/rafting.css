@@ -195,7 +195,11 @@ a {
     color:#47443d;
     align-items: center;
 }
-
+.map {
+    flex: 1;
+    min-width: 300px;
+    margin: right;
+}
 
 
 
