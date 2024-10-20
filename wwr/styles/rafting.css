@@ -209,5 +209,38 @@ a {
 }
 
 .user form {
-    
+    background-color:aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 1fr 2fr;
+    margin: 0.3rem 0;
+}
+
+.column2 {
+    grid-template-columns: 2fr 1fr;
+    margin: .5rem 0;
+}
+
+/* Style the submit button */
+.submit button:hover {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 15px 20px; /* Padding */
+    border: none; /* No border */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+/* Hover effect */
+.submit button:hover {
+    background-color: #45a049; /* Darker green on hover */
 }

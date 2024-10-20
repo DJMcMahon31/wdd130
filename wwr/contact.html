@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us-Feblo White Water Rafting</title>
     <meta name="author" content="Dianne McMahon">
-    <meta name="description" content="White Water Rafting Webpage">
+    <meta name="description" content="White Water Rafting Contact Us Webpage">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -30,7 +30,7 @@
     <main>
         <div class="hero">
             <img src="images/rafting20_600.jpg" alt="Rafting paddles">
-            <h1>Feblo White Water Rafting</h1>
+            <h1>Feblo White Water Rafting - Contact Us</h1>
             <article>
                 <img src="images/happy.jpg" alt="Happy Rafters">
                 <p>Come on over and see us, we will have so much fun!</p>
@@ -83,14 +83,33 @@
             <form action="username">Users Name</form>
             <fieldset>
                 <legend>Your Information please</legend>
-                <label for="username" >Your name</label> 
-                <input type="text" name="username" id="username">
-                <br>
-                <label for="email" >Your email address</label>
-                <input type="text" name="email" id="email">
+                <div class="form-item column1">
+                <label for="username">Your name</label> 
+                <input type="text" name="username" id="username" required>
+                </div>
                 <br><br>
-                <label for="typeofadventure">Type of adventure</label>
+                <div class="form-item column2">
+                <label for="email" >Your email address</label>
+                <input type="text" name="email" id="email" required>
+                </div>
+                <br><br>
+                <label for="typeofadventure">Type of adventure:</label><br><br>
                 <input type="radio" name="typeofadventure" id="typeofadventure">
+                <label for="typeofadventure">Crazy Canuck</label><br>
+                <input type="radio" name="typeofadventure" value="typeofadventure" id="typeofadventure">
+                <label for="typeofadventure">Radical Rafting</label><br>
+                <input type="radio" name="typeofadventure" value="typeofadventure" id="typeofadventure">
+                <label for="typeofadventure">Wandering Waters</label><br>
+                <input type="radio" name="typeofadventure" value="typeofadventure" id="typeofadventure">
+                <label for="typeofadventure">Peaceful Paddling</label><br><br>
+                <label for="reservation">Want to reserve a spot? (open from June 25th to September 15th)</label>
+                <input type="date" id="reservation" name="reservation"><br><br>
+                <label for="suggestion">Do you have any suggestions for us?</label>
+                <textarea name="suggestion" id="suggestion" rows="10" cols="40" required></textarea><br><br>
+                <label for="checkbox">Please subscribe me to the monthly newsletter</label>
+                <input type="checkbox" id="checkbox" name="checkbox"><br><br>
+
+
                 <!--<optgroup>
                     <option value="">General Inquiry</option>
                     <option value="">Reservation Question</option>
@@ -98,15 +117,20 @@
                 </optgroup>-->
             </fieldset> 
             <br>
-            <input type="submit" value="Submit your request">  
+            <div class="submit">
+            
+            <button type="submit">Submit your request</button>
+            </div>  
              
-        </section>
+         </section>
         <br>
     </main>
 
     <footer>
-          
+         
         <p>©2024  |  Feblo White Water Rafting   |   Dianne McMahon</p>
+
+        <a href="moqups" href="https://app.moqups.com/MomYSEi4f9LNlmOSNSWvGXo6KsaUxurH/edit/page/a3afcac31">Wireframe Access</a>
         
             <a href="https://www.facebook.com" target="_blank">
                 <img src="images/facebook.svg" alt="Facebook Icon">
