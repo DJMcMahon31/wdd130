@@ -28,26 +28,25 @@ main {
     margin: 0 auto;
 }
 
+a {
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 5%;
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+}
+
 .hero img {    
     width: 100%;
     height: auto;
-}
-
-/*section {
-    display: flex;
-    flex-direction: column; 
-    align-items: center;
-}*/
-    /*grid-template-columns: repeat(5, 1fr); */ 
-.adventures {
-    display: grid;
-}
-  
-.adventures h2 {
-    font: var(--heading2-font);
-    padding: var(--padding);
-    color:#47443d;
-    margin: 5px;    
 }
 
 .hero article {
@@ -74,6 +73,19 @@ header {
 .logo-box {
     width: 100%;
     justify-self: center;
+}
+/*Header above*/
+
+/*About Us Page-below*/
+.adventures {
+    display: grid;
+}
+  
+.adventures h2 {
+    font: var(--heading2-font);
+    padding: var(--padding);
+    color:#47443d;
+    margin: 5px;    
 }
 
 nav {
@@ -106,58 +118,11 @@ img {
 p {
     padding: 1rem;
 }
-.guides {
-    display: grid;    
-    grid-template-columns: repeat(3, 1fr);
-    background-color:aliceblue;
-}
-
-.guides h2 {
-    align-items: center;
-}
-
-
-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    background-color: aquamarine;
-    color:#47443d
-    
-}
-footer p {
-    flex-grow: 1;
-    text-align: center;
-}
-footer a {
-    margin-left: 20px;
-}
-
-
 .sociallinks img {
    
     width: 65px;
     height: 65px;
 }
-
-a {
-    text-decoration: none;
-}
-
-.hero {
-    position: relative;
-}
-
-.hero h1 {
-    position: absolute;
-    top: 5%;
-    width: 100%;
-    text-align: center;
-    background-color: #fff;
-}
-
-
 
 .history h2 {
     grid-column: 1/-1;
@@ -179,13 +144,34 @@ a {
     display: grid;
     grid-template-columns: repeat(12,1fr);
 }
-   
+
+.awaits {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
+.awaits img {
+    max-width: 100%;
+}
+/*About Us page (above)*/
+
+/*Contact Us page below*/
+.guides {
+    display: grid;    
+    grid-template-columns: repeat(3, 1fr);
+    background-color:aliceblue;
+}
+
+.guides h2 {
+    align-items: center;
+}
+
+  /*Contact Us page below*/ 
 
 .reach {
     display: grid;
     grid-template-columns: repeat(12,1fr);
     background-color:aliceblue;
-    
 }
 
 .reach h2 {
@@ -195,21 +181,11 @@ a {
     color:#47443d;
     align-items: center;
 }
+
 .map {
     flex: 1;
     min-width: 300px;
     margin: 5px;
-}
-
-
-
-.awaits {
-    display: grid;
-    grid-template-columns: repeat(5,1fr);
-}
-
-.awaits img {
-    max-width: 100%;
 }
 
 .form {
@@ -222,7 +198,12 @@ a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
-
+ /*section {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}*/
+    /*grid-template-columns: repeat(5, 1fr); */ 
 /*.form-item {
     display: grid;
     align-items: center;
@@ -238,18 +219,44 @@ a {
     margin: .5rem 0;
 }*/
 
-/* Style the submit button */
 .submission button:hover {
-    background-color: #4CAF50; /* Green background */
-    color: white; /* White text */
-    padding: 15px 20px; /* Padding */
-    border: none; /* No border */
+    background-color: #0d4e8b; 
+    color: white; 
+    padding: 15px 20px;
+    border: none; 
     cursor: pointer; /* Pointer cursor on hover */
-    font-size: 16px; /* Font size */
+    font-size: 16px; 
     transition: background-color 0.3s ease; /* Smooth transition */
 }
 
-/* Hover effect */
 .submission button:hover {
-    background-color: #45a049; /* Darker green on hover */
+    background-color: #45a049; 
+}
+
+/* Title page below*/
+
+
+/*Title page above*/
+
+/*Index page below*/
+
+
+/*Index page above*/
+
+/* FOOTER */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: aquamarine;
+    color:#47443d
+    
+}
+footer p {
+    flex-grow: 1;
+    text-align: center;
+}
+footer a {
+    margin-left: 20px;
 }
