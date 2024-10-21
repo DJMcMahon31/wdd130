@@ -113,10 +113,12 @@ p {
 }
 
 .history h2 {
-    padding-inline-start: 100px;
+    padding-inline-start: 80px;
     justify-self: start;
     color:#47443d;
-    font-family: var(heading2-font);
+    font-family: 'qwitcher grypen', 'dancing spirit', sans serif;
+    font-weight: 900;
+    font-size: 3em;
 }
 .history p:nth-of-type(1) {
     grid-column: 1/5;
@@ -137,10 +139,12 @@ p {
 }
   
 .adventures h2 {
-    padding-inline-start: 100px;
+    padding-inline-start: 80px;
     justify-self: start;    
     color:#47443d;
-    font-family: var(heading2-font);
+    font-family: 'qwitcher grypen', 'dancing spirit', sans-serif;
+    font-weight: 900;
+    font-size: 3em;
 }
 
 .awaits {
@@ -162,7 +166,9 @@ p {
 
 .guides h2 {
     align-items: center;
-    padding-inline-start: 100px;
+    padding-inline-start: 80px;
+    font-weight: 900;
+    font-size: 3em;
 }
 
 .reach {
