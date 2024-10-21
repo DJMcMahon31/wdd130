@@ -77,7 +77,6 @@ header {
 /*Header above*/
 
 /*About Us Page-below*/
-
 nav {
     background-color: var(--heading-background-color);
     padding: var(--padding);
@@ -108,8 +107,7 @@ img {
 p {
     padding: 1rem;
 }
-.sociallinks img {
-   
+.sociallinks img {   
     width: 65px;
     height: 65px;
 }
@@ -117,7 +115,6 @@ p {
 .history h2 {
     padding-inline-start: 100px;
     justify-self: start;
-    
     color:#47443d;
     font-family: var(heading2-font);
 }
@@ -141,8 +138,7 @@ p {
   
 .adventures h2 {
     padding-inline-start: 100px;
-    justify-self: start;
-    
+    justify-self: start;    
     color:#47443d;
     font-family: var(heading2-font);
 }
@@ -155,7 +151,6 @@ p {
 .awaits img {
     max-width: 100%;
 }
-
 /*About Us page (above)*/
 
 /*Contact Us page below*/
@@ -169,8 +164,6 @@ p {
     align-items: center;
     padding-inline-start: 100px;
 }
-
-  /*Contact Us page above*/ 
 
 .reach {
     display: grid;
@@ -236,7 +229,7 @@ p {
 .submission button:hover {
     background-color: #45a049; 
 }
-
+  /*Contact Us page above*/ 
 /* Title page below*/
 
 
