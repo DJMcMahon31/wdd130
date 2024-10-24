@@ -252,7 +252,10 @@ p {
 
 .home img {
     display: grid;
-    padding: .1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0rem;
+    padding-bottom: .1rem;
 }
 .home figcaption {
     display: grid;
@@ -325,12 +328,18 @@ label email {
     font-weight: 200;
 }
 
-input email {
-    border-radius: 8px;
+.email input {
     padding: .5rem;
-    margin: 1px;
+    margin: 1rem;
+    box-shadow: #bbb;
+    border-radius: 10px;
 }
 
+.email input.hover {
+    display: grid;
+    margin-left: 2rem;
+    padding: 5rem;
+}
 
 
 /*Index page above*/
