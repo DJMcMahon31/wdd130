@@ -4,7 +4,7 @@
     --heading-font: 'dancing script', 'qwitcher grypen', sans-serif;
     --padding: 1rem;
     --border: 1px solid rgba(0, 0, 0, 0.1);
-    --background-color: #84857e;
+    --background-color: aliceblue;
     --width: 1200px;
     --body-text: 'oxygen', 'montserrat', sans-serif;
     --heading2-font: 'qwitcher grypen', 'dancing script', sans serif;
@@ -14,6 +14,9 @@
 }
 * {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+   
 }
 
 body {
@@ -106,6 +109,7 @@ img {
 
 p {
     padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .sociallinks img {   
     width: 65px;
@@ -234,12 +238,45 @@ p {
 
 
   /*Contact Us page above*/ 
-/* Title page below*/
+/* Trips page below*/
 
 
-/*Title page above*/
+/*Trips page above*/
 
 /*Index page below*/
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1.5rem;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    background-color: aliceblue;
+}
+
+button {
+    background-color: aliceblue;
+    color: #053da3;
+    padding: .5rem;
+    margin: 1rem;
+    box-shadow: #ccc;
+    border-radius: 10px;
+}
+
+.quarterly button.hover {
+    background-color: #0d4e8b; 
+    color: white; 
+    padding: 15px 20px;
+    border: none; 
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; 
+    transition: background-color 0.3s ease;
+
+}
+ul {
+    margin: 4rem;    
+}
+ 
+
 
 
 /*Index page above*/
