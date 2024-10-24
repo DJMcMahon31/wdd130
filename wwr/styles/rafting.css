@@ -248,7 +248,28 @@ p {
     cursor: pointer; /* Pointer cursor on hover */
     font-size: 16px; 
     transition: background-color 0.3s ease; /* Smooth transition */
+}
 
+.trips {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 5px;
+}
+
+.trips img {
+    display: grid;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0rem;
+    padding-bottom: .1rem;
+    margin: 1rem;
+}
+
+.trips figcaption {
+    display: grid;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    align-items: baseline;
 }
 
 /*Trips page above*/
