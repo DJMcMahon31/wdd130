@@ -309,6 +309,10 @@ ul {
     float: left;
 }
 
+.column1 h3 {
+    font-size: x-large;
+}
+
 .column2 {
     width: 50%;
     float: right;
