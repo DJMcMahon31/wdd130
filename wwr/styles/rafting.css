@@ -285,6 +285,11 @@ fieldset {
     padding: 1rem;
     background-color: aliceblue;
 }
+.container {
+    font-family: var(--heading1-font);
+    font-weight: 9000;
+    font-size: large;    
+}
 
 button {
     background-color: rgb(248, 249, 250);
@@ -317,9 +322,10 @@ ul {
     float: right;
 }*/
 
-label newsletter {
+label news {
     text-align:right;
     padding: right;
+    font-family: var(--heading2-font);
 }
 
 label email {
@@ -329,6 +335,7 @@ label email {
 }
 
 .email input {
+    display: grid;
     padding: .5rem;
     margin: 1rem;
     box-shadow: #bbb;
