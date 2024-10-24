@@ -272,6 +272,14 @@ p {
     align-items: baseline;
 }
 
+.table {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 4rem;
+    margin: 4rem;
+
+}
+
 /*Trips page above*/
 
 /*Index page below*/
