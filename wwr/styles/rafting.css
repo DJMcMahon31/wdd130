@@ -262,12 +262,26 @@ button {
     border-radius: 10px;
 }
 
-
-
 ul {
     margin: 4rem;    
 }
- 
+
+.column1 {
+    width: 45%;
+    float: left;
+
+}
+
+.column2 {
+    width: 45%;
+    float: right;
+}
+
+label newsletter {
+    text-align:right;
+    padding: right;
+
+}
 
 
 
