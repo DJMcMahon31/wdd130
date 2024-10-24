@@ -267,10 +267,10 @@ p {
 .home p {
     
     margin-left: 11rem;
-    font-family: var(--heading1-font);
+    font-family: var(--heading-font);
     font-style: italic;
-    font-size: x-large;
-    font-weight: 3500;
+    font-size: xx-large;
+    font-weight: 6000;
     color:#031b49;
 }
 
@@ -306,6 +306,9 @@ ul {
     float: right;
 }
 
+.column2 h3{
+    font-size: x-large;
+}
 /*.column3 {
     width: 10%
     float: right;
