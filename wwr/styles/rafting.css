@@ -328,7 +328,7 @@ ul {
 
 label news {
     text-align:right;
-    padding: right;
+    padding: 1rem;
     font-family: var(--heading2-font);
 }
 
