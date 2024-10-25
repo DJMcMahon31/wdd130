@@ -290,8 +290,6 @@ table {
     margin: 25rem;
     column-gap: 40rem;
     border: 3px solid rgba(0, 0, 0, 0.1)
-    (--background-color);
-
 }
 
 th,
