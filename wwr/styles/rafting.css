@@ -468,6 +468,8 @@ label email {
     font-family: var(--heading2-font);
     font-size: xx-large;
     font-weight: 990;
+    background-color: #053da3;
+    color:aliceblue;
     
 }
 
