@@ -239,18 +239,39 @@ p {
 
 
   /*Contact Us page above*/ 
+
 /* Trips page below*/
-.cta button.hover {
+.cta {
+    display: inline-block;
+    color: #0d4e8b;
+    background-color: white;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10, 20;
+    text-align: center;
+    text-decoration: underline;
+    cursor: pointer;
+    align-content: center;
     
+}
+
+.cta:hover {
     background-color: #0d4e8b; 
     color: white; 
     padding: 15px 20px;
     border: none; 
-    cursor: pointer; /* Pointer cursor on hover */
+    cursor: pointer; 
     font-size: 16px; 
-    transition: background-color 0.3s ease; /* Smooth transition */
+    transition: background-color 0.3s ease;
+
 }
 
+.packages h2 {
+    display: grid;
+    padding: 3rem;
+    margin-left: 10rem;
+    font-size: xx-large;
+}
 .trips {
     display: grid;
     align-items: end;
@@ -260,6 +281,7 @@ p {
 
 .trips img {
     display: grid;
+    grid-template-columns: (3, 1fr);
     padding-left: 1rem;
     padding-right: 1rem;
     padding-top: 0rem;
@@ -285,6 +307,11 @@ p {
     align-items: baseline;
     padding-bottom: 5rem;
     font-style: initial;
+}
+
+.trip-figure1 img{
+    display: grid;
+    grid-template-rows: (1, 30%);
 }
 
 table {
