@@ -230,6 +230,7 @@ p {
     background-color: #0d4e8b; 
     color: white; 
     padding: 15px 20px;
+    
     border: none; 
     cursor: pointer; /* Pointer cursor on hover */
     font-size: 16px; 
@@ -316,14 +317,15 @@ td {
 
 .home img {
     display: grid;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 12rem;
+    padding-right: 12rem;
     padding-top: 0rem;
     padding-bottom: .1rem;
 }
 .home figcaption {
     display: grid;
-    padding: 1.5rem;
+    padding-left: 13rem;
+    padding-right: 13rem;
 }
 
 .home h2 {
