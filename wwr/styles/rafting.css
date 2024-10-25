@@ -275,7 +275,7 @@ p {
 }
 
 .trips-fieldset {
-    
+    width: 70%;
     float: left;
     padding: 0rem;
     margin: 0rem;
@@ -283,6 +283,7 @@ p {
 .trips {
     display: grid;
     margin: 5rem;
+    padding: 10re
 }
 
 .trips img {
