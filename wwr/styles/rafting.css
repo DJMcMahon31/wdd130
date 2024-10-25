@@ -331,6 +331,15 @@ td {
 .home h2 {
     display: grid;
     margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.home h3 {
+    display: grid;
+    margin-left: 14rem;
+    margin-right: 12rem;
+    font-family: var(--heading-font);
+    font-size: xx-large;
 }
 
 .home p {    
@@ -448,7 +457,7 @@ label email {
     
 }
 
-/*.btn.hover {
+.btn.hover {
     display: grid;
     margin-left: 2rem;
     padding: 5rem;
@@ -460,7 +469,7 @@ label email {
     font-size: 16px; 
     transition: background-color 0.3s ease;
 
-}*/
+}
   
 
 
