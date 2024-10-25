@@ -309,6 +309,19 @@ td {
 /*Trips page above*/
 
 /*Index page below*/
+.indexpics {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    padding: 1rem;
+    margin: 0rem;
+    width: 100%;
+}
+
+.indexpics p {
+    align-content: center;
+    font-style: italic;
+}
+
 .home {
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -332,6 +345,7 @@ td {
     display: grid;
     margin-left: 3rem;
     margin-right: 3rem;
+    font-size: xx-large;
 }
 
 .home h3 {
