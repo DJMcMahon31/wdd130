@@ -426,7 +426,43 @@ label email {
     display: grid;
     margin-left: 2rem;
     padding: 5rem;
+    background-color: #0d4e8b; 
+    color: white; 
+    padding: 15px 20px;    
+    border: none; 
+    cursor: pointer; 
+    font-size: 16px; 
+    transition: background-color 0.3s ease; 
 }
+
+.btn {
+    display: grid;
+    margin-left: 29rem;
+    margin-right: 29rem;
+    text-decoration: none;
+    padding: 1rem;
+    border: 1px solid #0d4e8b;
+    font-family: var(--heading2-font);
+    font-size: xx-large;
+    font-weight: 990;
+    
+}
+
+/*.btn.hover {
+    display: grid;
+    margin-left: 2rem;
+    padding: 5rem;
+    background-color: #0d4e8b; 
+    color: white; 
+    padding: 15px 20px;    
+    border: none; 
+    cursor: pointer; 
+    font-size: 16px; 
+    transition: background-color 0.3s ease;
+
+}*/
+  
+
 
 
 /*Index page above*/
