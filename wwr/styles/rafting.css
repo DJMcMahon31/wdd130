@@ -252,8 +252,9 @@ p {
 
 .trips {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    align-items: end;
     padding: 5px;
+    margin: 20rem;
 }
 
 .trips img {
@@ -263,11 +264,15 @@ p {
     padding-top: 0rem;
     padding-bottom: .1rem;
     margin: 1rem;
+    float: right;
+
 }
 
 .trips p {
     display: grid;
     padding-left: 9rem;
+    align-content: start;
+    
 }
 
 .trips figcaption {
@@ -275,6 +280,7 @@ p {
     padding-left: 3rem;
     padding-right: 3rem;
     align-items: baseline;
+    padding-bottom: 5rem;
 }
 
 table {
@@ -285,7 +291,7 @@ table {
 }
 .table {
     display: grid;
-    align-self: center;
+    align-self: flex-end;
     padding: 4rem;
     margin: 25rem;
     column-gap: 40rem;
