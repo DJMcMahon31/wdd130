@@ -273,6 +273,8 @@ p {
     display: grid;
     padding-left: 9rem;
     align-content: start;
+    font-family: var(--heading-font);
+    font-size: xx-large;
     
 }
 
@@ -282,6 +284,7 @@ p {
     padding-right: 3rem;
     align-items: baseline;
     padding-bottom: 5rem;
+    font-style: initial;
 }
 
 table {
@@ -362,7 +365,7 @@ td {
     font-style: italic;
     font-size: xx-large;
     font-weight: 990;
-    color:#031b49;
+    color:#053da3;
 }
 
 fieldset {
